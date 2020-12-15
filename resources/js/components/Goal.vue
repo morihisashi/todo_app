@@ -121,7 +121,7 @@
                             </div>
                         </div>
                     </div>
-                    <goals-todos :goalId="goal.id"></goals-todos>
+                      <goals-todos :goalId="goal.id"></goals-todos>
                 </div>
             </div>
         </div>
