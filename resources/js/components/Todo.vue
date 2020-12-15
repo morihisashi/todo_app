@@ -25,9 +25,9 @@
                 <div class="card" style="width: 18rem;" v-if="todo.done == 0">
                     <div class="card-body">
                         <h5 class="card-title">{{todo.content}}</h5>
-                        <div class="mb-2">
+                          <div class="mb-2">
                             Tag：<span v-for="(key, index) in todo.tags" :key="index"><small class="mr-1">{{todo.tags[index].title}}</small></span>
-                        </div>
+                          </div>
                         <h6 class="card-subtitle mb-2 text-muted">{{todo.created_at}}</h6>
                     </div>
                     <div class="btn-group position-absolute dropdown" style="top:10px; right:4px;">
@@ -44,9 +44,9 @@
                 <div class="card" style="width: 18rem;" v-if="todo.done == 1">
                     <div class="card-body">
                         <h5 class="card-title"><s>{{todo.content}}</s></h5>
-                        <div class="mb-2">
+                          <div class="mb-2">
                             Tag：<span v-for="(key, index) in todo.tags" :key="index"><small class="mr-1">{{todo.tags[index].title}}</small></span>
-                        </div>
+                          </div>
                         <h6 class="card-subtitle mb-2 text-muted">{{todo.created_at}}</h6>
                     </div>
                     <div class="btn-group position-absolute dropdown" style="top:10px; right:4px;">
